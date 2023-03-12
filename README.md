@@ -1,1 +1,4 @@
-# Procedurally-generated-vegetation-in-AR
+# Procedurally generated vegetation in AR environments
+This application is the result of my bachelor's thesis at the University of Applied Sciences in Kempten, Germany. 
+It uses Microsoft's HoloLens 2 and its Spatial Mapping feature to overlay different types of procedurally placed and generated vegetation over the user's real environment. 
+The player can utilize the integrated hand tracking and gesture recognition to throw waterballons which lead to vegetation like grass, flowers and ferns to grow dynamically around their point of impact. Hitting a flower with one of these waterballons will prompt it to bloom and grow multiple ivy vines along the surface it is located on. These ivy vines are generated procedurally and seek their own pathways throughout the environment using a system that employs multiple simple raycasts to categorize its immediate surroundings.
